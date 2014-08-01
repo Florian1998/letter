@@ -1,6 +1,0 @@
-a:hover {
-	color: blue;
-}
-input["text"]:hover {
-	background-color: orange;
-}
