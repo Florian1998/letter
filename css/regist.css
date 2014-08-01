@@ -1,0 +1,6 @@
+a:hover {
+	color: blue;
+}
+input["text"]:hover {
+	color: orange;
+}
