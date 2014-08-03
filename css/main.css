@@ -1,82 +1,80 @@
-body                      
-{
-    font-family: Arial;
-    background-color: #00CCFF;
+html {
+	font-family: sans-serif;
+	display: block;
 }
-
-h1
-{
-    font-size: 18pt;
+.main {
+	margin-left: 100px;
+	margin-right: 100px;
+	border-color: blue;
+	border: 2px;
 }
-
-p
-{
-    font-size: 22pt;
+.header {
+	background-color: #39d7ff;
+	height: 50px;
+	margin: -8px;
+	margin-bottom: 0px;
+	border-bottom-left-radius: 30px;
+	border-bottom-right-radius: 30px;
+	width: 100%;
+	position: fixed;
+	top: 0px;
 }
-
-#main
-{
-    width: 800px;
-    margin-left: auto;
-    margin-right: auto;
+.jumbotron {
+	padding: 30px;
+	margin-bottom: 30px;
+	color: inherit;
+	background-color: #E8E8E8;
+	border-radius: 18px;
 }
-
-#head
-{
-    background-image: url(https://sketch.io/render/sketch53c3f8ebeafd5.png);
-    height: 70px;
-    padding: 40px;
+.jumbotron h1,
+.jumbotron .h1 {
+	color: inherit;
 }
-
-#navi 
-{
-    background-color: #48649F;
-    height: 20px;
-    padding-left: 50px;
+.jumbotron p {
+	margin-bottom: 15px;
+	font-size: 21px;
 }
-
-#navi a
-{
-    color: White;
+.img-circle {
+	border-color: black;
+	border: 5px solid;
+	border-radius: 50%;
+	width: 200px;
+	height: 200px;
 }
-
-#navi a:visited
-{
-    color: Black;
+a {
+	color: #39d7ff;
+	text-decoration: none;
 }
-
-#content
-{
-    background-color: #43ADC7;
-    width: 420px;
-    position: absolute;
-    font-weight: bold;
-    padding: 40px;
-    height: 1170px;
+a:hover {
+	text-decoration: underline;
 }
+.button {
+	display: inline-block;
+	padding: 6px 12px;
+	font-size: 16px;
+	font-weight: normal;
+	line-height: 1.4;
+	margin-bottom: 0;
+	text-align: center;
+	vertical-align: middle;
+	cursor: pointer;
+	-webkit-user-select: none;
+	   -moz-user-select: none;
+   	 	-ms-user-select: none;
+ 	        user-select: none;
+	background-image: none;
+	border: 1px solid transparent;
+	border-radius: 4px;
 
-#seitenleiste
-{
-    background-color: #48649F;
-    width: 260px;
-    float: right;
-    padding-left: 20px;
-    padding-right: 20px;
-    font-size: 20pt;
-    font-family: Arial;
-    height: 1250px;
 }
-a:hover
-{
-    color: orange;
+.button-blue {
+	color: #fff;
+	background-color: #3071a9;
+	border-color: #285e8e;	
 }
-
-
-
-
-
-
-
-
-
-
+.button-blue:hover,
+.button-blue:active {
+	text-decoration: none;
+	background-color: #5bc0de;
+  	border-color: #46b8da;
+}
