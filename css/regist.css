@@ -1,6 +1,8 @@
 a:hover {
 	color: blue;
 }
-input["text"]:hover {
-	color: orange;
+input[type="text"]:focus {
+	border: 2px solid;
+	border-color: orange;
+	border-radius: 5px;
 }
