@@ -1,0 +1,130 @@
+html {
+	display: block;
+	color: white;
+	font-family: sans-serif;
+}
+.container {
+	left: 0;
+	top: 0;
+	position: fixed;
+	display: table;
+	background: #21375b;
+	height: 100%;
+	width: 100%;
+}
+.middle {
+	text-align: center;
+	display: table-cell;
+	vertical-align: middle;
+}
+.footer {
+	bottom: 0;
+	position: absolute;
+	text-align: center;
+	width: 100%;
+	padding-bottom: 15px;
+	display: table-cell;
+	height: 20px;
+	font-size: 100%;
+	word-spacing: 2px;
+	letter-spacing: 2px;
+}
+a {
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+}
+a:hover {
+	text-decoration: underline;
+	cursor: pointer;
+}
+.button {
+	display: inline-block;
+	padding: 6px 12px;
+	font-size: 20px;
+	font-weight: bold ;
+	line-height: 1.4;
+	margin-bottom: 5px;
+	text-align: center;
+	vertical-align: middle;
+	cursor: pointer;
+	border: 1px solid transparent;
+	border-radius: 4px;
+	width: 250px;
+	height: 42px;
+}
+.button-blue {
+	color: #fff;
+	background-color: #3071a9;
+	border-color: #285e8e;
+	border: none;
+}
+.button-blue:hover,
+.button-blue:active {
+	text-decoration: none;
+	background-color: #5bc0de;
+	border: none;
+}
+.button-green {
+	color: #fff;
+	background-color: #009900;
+	border: none;
+}
+.button-green:hover,
+.button-green:active {
+	text-decoration: none;
+	background-color: #7CFC00;
+	border: none;
+}
+.p-group {
+	margin: 0;
+}
+.input {
+	height: 42px;
+	width: 250px;
+	padding-left: 10px;
+	padding-right: 10px;
+	font-size: 19px;
+	border: none;
+	outline: none
+	letter-spacing: 1pt;
+}
+.input-first,
+.input-first:active,
+.input-first:hover {
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+	border: none; 
+}
+.input-last,
+.input-last:hover,
+.input-last:active {
+	border-bottom-left-radius: 4px;
+	border-bottom-right-radius: 4px;
+	border: none;
+	box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.1) inset;
+}
+img {
+	width: 150px;
+	height: 150px;
+	margin-bottom: 30px;
+	margin-top: -60px;
+}
+/* Löschung der Mozilla-Button-Grundeinstellung */
+input[type="submit"]::-moz-focus-inner,
+input[type="button"]::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+}
+/*only for google chrome */
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    .button-blue {
+		margin-left: 4px;
+	}
+	.password {
+		letter-spacing: 0.5em;
+	}
+}
+.input::-webkit-input-placeholder {
+   letter-spacing: 0.1em;
+}
