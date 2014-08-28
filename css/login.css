@@ -86,7 +86,8 @@ a:hover {
 	padding-right: 10px;
 	font-size: 19px;
 	border: none;
-	outline: none
+	outline: none;
+	outline-style: none;
 	letter-spacing: 1pt;
 }
 .input-first,

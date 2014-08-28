@@ -1,5 +1,7 @@
 <html>
 	<head>
+		<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+		<link rel="icon" href="img/favicon.ico" type="image/x-icon" />
 		<link href="css/login.css" type="text/css" rel="stylesheet">
 		<title>Letter</title>
 	</head>
