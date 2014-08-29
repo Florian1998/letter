@@ -9,8 +9,10 @@
 		<!-- zentrieren -->
 		<div class="container">
 			<div class="middle">
-				<!-- Logo -->
-				<img width="150px" src="img/logo.png" />
+				<!-- Logo
+				<img class="logo" width="150px" src="img/logo.png" /> -->
+				<!-- Letter Caption -->
+				<div class="caption">Letter</div>
 				<!-- Login-Formular -->
 				<form method="POST" action="index.php">
 					<div class="input-group">
