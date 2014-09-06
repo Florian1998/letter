@@ -26,7 +26,7 @@
 					<a href="regist.php" /><input type="button" value="Registrieren" class="button button-green" /></a>
 				</form>
 				<div class="footer">
-					<a href="https://www.facebook.com/pages/Letter/668067103275242?ref=hl">Letter</a> - a modern way to write letters
+					<a href="https://www.facebook.com/pages/Letter/668067103275242?ref=hl" class="link">Letter</a> - a modern way to 						write letters
 				</div>
 			</div>
 		</div>

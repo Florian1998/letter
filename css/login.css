@@ -29,12 +29,12 @@ html {
 	word-spacing: 2px;
 	letter-spacing: 2px;
 }
-a {
+.link, a {
 	text-decoration: none;
 	color: white;
 	font-weight: bold;
 }
-a:hover {
+.link:hover {
 	text-decoration: underline;
 	cursor: pointer;
 }
@@ -55,7 +55,6 @@ a:hover {
 .button-blue {
 	color: #fff;
 	background-color: #3071a9;
-	border-color: #285e8e;
 	border: none;
 }
 .button-blue:hover,
@@ -101,6 +100,12 @@ a:hover {
 .input-last:active {
 	border-bottom-left-radius: 4px;
 	border-bottom-right-radius: 4px;
+	border: none;
+	box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.1) inset;
+}
+.input-middle,
+.input-middle:hover,
+.input-middle:active {
 	border: none;
 	box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.1) inset;
 }
